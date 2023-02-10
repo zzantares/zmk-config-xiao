@@ -60,11 +60,11 @@
             // |     |     |      |      |      |        |                   |       |      |       |       |      |       |
 
             bindings = <
-&kp TILDE  &trans  &trans   &trans   &trans   &trans       &trans     &trans     &trans          &kp N9           &kp N0       &bootloader
-&kp GRAVE  &kp N1  &kp N2   &kp N3   &kp N4   &kp N5       &kp N6     &kp N7     &kp UP  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET
-   &kp F1  &kp F2  &kp F3   &kp F4   &kp F5   &kp F6      &kp RET   &kp LEFT   &kp DOWN       &kp RIGHT          &kp ESC          &kp PIPE
-   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp KP_PLUS  &kp MINUS  &kp EQUAL        &kp LBKT         &kp RBKT          &kp PIPE
-   &trans  &trans  &trans   &trans   &trans   &trans       &trans     &trans     &trans          &trans           &trans            &trans
+&kp TILDE  &trans  &trans   &trans   &trans   &trans       &trans     &trans     &trans          &kp N9            &kp N0  &bootloader
+&kp GRAVE  &kp N1  &kp N2   &kp N3   &kp N4   &kp N5       &kp N6     &kp N7     &kp UP  &kp LEFT_BRACE   &kp RIGHT_BRACE      &kp ESC
+   &kp F1  &kp F2  &kp F3   &kp F4   &kp F5   &kp F6      &kp RET   &kp LEFT   &kp DOWN       &kp RIGHT  &kp LEFT_BRACKET     &kp PIPE
+   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp KP_PLUS  &kp MINUS  &kp EQUAL        &kp LBKT          &kp RBKT     &kp PIPE
+   &trans  &trans  &trans   &trans   &trans   &trans       &trans     &trans     &trans          &trans            &trans       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
