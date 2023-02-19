@@ -72,11 +72,11 @@
 
         EMUL_LAYER {
             bindings = <
-&kp TILDE     &trans     &trans     &trans       &trans     &trans     &trans     &trans         &trans       &trans        &kp DEL         &kp BACKSPACE
-   &trans  &kp LC(Q)  &kp LC(W)  &kp LC(E)    &kp LC(R)  &kp LC(T)  &kp LC(Y)  &kp LC(U)      &kp LC(I)    &kp LC(O)      &kp LC(P)  &kp LC(LEFT_BRACKET)
-   &trans  &kp LC(A)  &kp LC(S)  &kp LC(D)    &kp LC(F)  &kp LC(G)  &kp LC(H)  &kp LC(J)      &kp LC(K)    &kp LC(L)   &kp LC(SEMI)               &kp RET
-   &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)    &kp LC(V)  &kp LC(B)  &kp LC(N)  &kp LC(M)  &kp LC(COMMA)  &kp LC(DOT)  &kp LC(SLASH)                &trans
-   &trans     &trans     &trans     &trans  &kp LA(TAB)     &trans     &trans     &trans         &trans       &trans         &trans                &trans
+&kp TILDE     &trans     &trans     &trans       &trans     &trans     &trans     &trans         &trans       &trans               &kp DEL         &kp BACKSPACE
+   &trans  &kp LC(Q)  &kp LC(W)  &kp LC(E)    &kp LC(R)  &kp LC(T)  &kp LC(Y)  &kp LC(U)      &kp LC(I)    &kp LC(O)  &kp LC(LEFT_BRACKET)  &kp LC(LEFT_BRACKET)
+   &trans  &kp LC(A)  &kp LC(S)  &kp LC(D)    &kp LC(F)  &kp LC(G)  &kp LC(H)  &kp LC(J)      &kp LC(K)    &kp LC(L)          &kp LC(SEMI)               &kp RET
+   &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)    &kp LC(V)  &kp LC(B)  &kp LC(N)  &kp LC(M)  &kp LC(COMMA)  &kp LC(DOT)         &kp LC(SLASH)             &kp LC(P)
+   &trans     &trans     &trans     &trans  &kp LA(TAB)     &trans     &trans     &trans         &trans       &trans                &trans                &trans
             >;
         };
     };
